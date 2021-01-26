@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closure is the combination of the data stored inside the function as well as other data that function has access to in the outer function's scope. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +67,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+dansRoll and zoesRoll are both closures. They use to personalDice function but they have a different origin
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The name is always the same but newRoll can change from time to time.
+
 c. What is the lexical scope of `newRoll`? 
+
+It is within personalDice.
 
 
 ### Task 3 - Stretch Goals
